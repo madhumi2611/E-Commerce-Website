@@ -1,0 +1,210 @@
+<style>
+    html
+    {
+        scroll-behavior: smooth;
+    }
+@font-face 
+    {
+    font-family: Futura;
+    src: url('futur.ttf') format('truetype'),
+         url('Futura Bold font.ttf') format('truetype')
+    }
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="first-row">
+            <!--logo-->
+            <div id="logo-luxury">LuXurY</div>
+            <div><input type="text" placeholder="Search" id="Search-bar" class="box-text"></div>
+            <!--login and cart-->
+            <div><a href="Login.html"><i class="fa-solid fa-user">Login</i></a></div>
+            <div><a href="#"><i class="fa-solid fa-cart-shopping">Cart</i></a></div>
+        </div>
+        <nav class="font-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Products.html">All Products</a></li>
+                <li><a href="Men.html">New Launch</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Hero-->
+    <div class="hero-sec">
+        <h1 class="font-content">Discover Your Signature Scent ! </h1>
+        <h1 class="font-content"> Unveil the Art of Fragrance with our Exquisite Perfume Collection</h1>
+    </div>
+    <div class="gap"></div>
+    <!--Products-->
+    <div class="font-content">
+        <h1 class="product-title">Our Bestsellers</h1>
+        <div class="view-images">
+            <div> <a class="description-link" href="product1.html">
+                <img src="brandless-perfume1.jpeg" alt="LUXURY perfume for elites" class="img-perfume">
+                <h3 class="description">LUXURY Golden Hour Perfume, Sweet Vanilla and Creamy Tonka, Long-Lasting Liquid Scent | 50ml
+                <div class="price-product">INR 8449</div></h3>
+            </a> </div>
+            <div> <a class="description-link" href="product2.html">
+                <img src="brandless-perfume2.jpeg" alt="LUXURY perfume rosegold everlasting" class="img-perfume">
+                <h3 class="description">LUXURY Scent Rosegold Extreme Perfume, Long-Lasting, Fresh and Fragrant , Eau De Parfum | 50 ml
+                <div class="price-product">INR 7569</div></h3>
+            </a> </div>
+            <div> <a class="description-link" href="product3.html">
+                <img src="brandless-perfume3 copy.jpeg" alt="LUXURY perfume sandalwood everlasting" class="img-perfume">
+                <h3 class="description">LUXURY Ocean Breeze Eau de Toilette, Light and Refreshing Invigorating Fragrance | 50 ml
+                <div class="price-product">INR 9789</div></h3>
+            </a> </div>
+        </div>
+    </div>
+    <div class="gap"></div>
+    <!--New Arrivals-->
+    <div class="font-content">
+        <div class="new-arrival">
+            <h1 class="product-title">New arrivals</h1>
+            <div class="view-images">
+                <div> <a class="description-link" href="product4.html">
+                    <img src="brandless-perfume4.jpeg" alt="LUXURY perfume for elites" class="img-perfume">
+                    <h3 class="description"> LUXURY Enchanted Bloom Eau de Parfum, Fragrance Burst of Fresh Jasmine and Rose Petals | 50ml
+                    <div class="price-product">INR 8549</div></h3>
+                </a> </div>
+                <div> <a class="description-link" href="product5.html">
+                    <img src="brandless-perfume5.jpeg" alt="LUXURY perfume rosegold everlasting" class="img-perfume">
+                    <h3 class="description">LUXURY Midnight Noir Cologne, With Top Notes of Black Pepper, Bergamot and Patchouli | 50 ml
+                    <div class="price-product">INR 6448</div></h3>
+                </a> </div>
+                <div> <a class="description-link" href="product6.html">
+                    <img src="brandless-perfume6.jpeg" alt="LUXURY perfume sandalwood everlasting" class="img-perfume">
+                    <h3 class="description">LUXURY Velvet Rose Eau de Parfum, Sensual Luxurious Damask Rose and Dark Plum, Long-Lasting | 50 ml
+                    <div class="price-product">INR 7655</div></h3>
+                </a> </div>
+            </div>
+        </div>
+    </div>
+    <div class="gap"></div>
+    <div class="footer-gap"></div>
+    <footer>
+    <!--Membership-->
+    <div class="font-content">
+        <div class="Membership">
+            <h1>Become a member today!</h1>
+            <p>Join our exclusive fragrance community by making your first purchase.</p>
+            <ul class="list">
+                <li><b>Exclusive Discounts</b> on future orders</li>
+                <li><b>Early Access</b> to new collections</li>
+                <li><b>Personalized Gifts</b> just for you</li>
+            </ul>
+            <p>Indulge in LUXURY, enjoy member-only perks, and elevate your scent game with every purchase.</p>
+            <p><b>Start your journey with us today!</b></p>
+        </div>
+    </div>
+    <!--Newsletter-->
+    <div class="font-content">
+        <form id="myform" onsubmit="return validateForm2()" method="post">
+            <div class="try-flex">
+                <div class="imgcontainer">
+                    <h1 class="avatar">Subscribe To Our Newsletter</h1>
+                </div>
+          
+                <div class="container">
+                    <label for="username"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Username" id="username" name="username" required class="box-text">
+                    <span id="usernameError" class="error"></span>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter emai ID" id="email" name="email" required class="box-text">
+                    <span id="emailError" class="error"></span>
+                </div>
+            </div>     
+            <button type="submit" class="login-btn">Subscribe</button>
+            <label  class="remember-me">
+            <input type="checkbox" checked="checked" name="remember"> Get email updates of our store
+            </label>
+          
+        </form>
+        </div>
+    <div class="font-content">
+        <div class="social-media">
+            <h3>Follow Us on Our Social Media Handles</h3>
+            <a href="https://twitter.com/ecell_nitt" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/ecellnitt/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ecell.nit.trichy/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+    <div class="font-content">
+        <div class="align-back-to-top">
+            <button onclick="topFunction()" id="my-btn" title="Go to top">Back to Top</button>
+        </div>
+    </div>
+    </footer>
+
+    <script>
+        let mybutton=document.getElementById("my-btn");
+        window.onscroll=function(){scrollFunction()};
+    
+        function scrollFunction(){
+            if (document.body.scrollTop>100 || document.documentElement.scrollTop>100){
+                mybutton.style.display="block";
+            }
+            else{
+                mybutton.style.display="none";
+            }
+        }
+    
+        function topFunction(){
+            document.body.scrollTop=0;
+            document.documentElement.scrollTop=0;
+        }
+    </script>
+    <script>
+        function validateForm() {
+            let username = document.getElementById("username").value.trim();
+            let email = document.getElementById("email").value.trim();
+
+            // Error messages
+            let usernameError = document.getElementById("usernameError");
+            let emailError = document.getElementById("emailError");
+
+            // Clear previous error messages
+            usernameError.textContent = "";
+            emailError.textContent = "";
+
+            let isValid = true;
+
+            // Username validation
+            if (username === "") 
+            {
+                usernameError.textContent = "Name is required";
+                isValid = false;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,3}$/;
+            if (!emailRegex.test(email)) 
+            {
+                emailError.textContent = "Invalid email format";
+                isValid = false;
+            }
+
+            return isValid;
+        }
+    </script>
+</body>
+</html>
+
