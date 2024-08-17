@@ -1,0 +1,174 @@
+<style>
+    html
+    {
+        scroll-behavior: smooth;
+    }
+@font-face 
+    {
+    font-family: Futura;
+    src: url('futur.ttf') format('truetype'),
+         url('Futura Bold font.ttf') format('truetype')
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us</title>
+    <link rel="stylesheet" href="about-style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="first-row">
+            <!--logo-->
+            <div id="logo-luxury">LuXurY</div>
+            <div><input type="text" placeholder="Search" id="Search-bar" class="box-text"></div>
+            <!--login and cart-->
+            <div><a href="Login.html"><i class="fa-solid fa-user">Login</i></a></div>
+            <div><a href="#"><i class="fa-solid fa-cart-shopping">Cart</i></a></div>
+        </div>
+        <nav class="font-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Products.html">All Products</a></li>
+                <li><a href="Men.html">New Launch</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--ABOUT-->
+    <div class="font-content">
+        <div>
+            <h1 class="about-us">Introducing Our New Men's Collection</h1>
+            <div class="about-box">
+                <p class="about-color">For years, <b>LUXURY</b> has crafted exquisite fragrances that celebrate the essence of femininity. Now, we're expanding our expertise to redefine luxury for men. We proudly introduce our new line of men's perfumes, a collection that embodies strength, sophistication, and individuality.
+                </p>
+                <p class="about-color">Each scent in our men’s collection is a masterpiece, meticulously crafted using the finest ingredients to create bold, yet refined fragrances. Designed for the modern man who embraces confidence and elegance, our perfumes offer a balance of power and subtlety, capturing the essence of masculine allure.
+                </p>
+                <p class="about-color">From fresh, invigorating notes to deep, seductive blends, our new collection is tailored for every man who appreciates the art of fragrance. Discover <b>LUXURY</b> for Men—crafted with the same attention to detail, quality, and luxury that has defined our brand for women.
+                </p>
+                <p class="about-color">Step into a new era of sophistication with <b>LUXURY</b>, where luxury has no gender, only timeless style.
+                </p>
+                <p class="about-color">Click <a href="men-perfumes.html">here</a> to explore our new launches.</p>
+            </div>
+            <a href="men-perfumes.html" class="store-button"><b>Go To Men's Store</b></a>
+        </div>
+    </div>
+    <!--Membership-->
+    <div class="font-content">
+        <div class="Membership">
+            <h1>Become a member today!</h1>
+            <p>Join our exclusive fragrance community by making your first purchase.</p>
+            <ul class="list">
+                <li><b>Exclusive Discounts</b> on future orders</li>
+                <li><b>Early Access</b> to new collections</li>
+                <li><b>Personalized Gifts</b> just for you</li>
+            </ul>
+            <p>Indulge in LUXURY, enjoy member-only perks, and elevate your scent game with every purchase.</p>
+            <p><b>Start your journey with us today!</b></p>
+        </div>
+    </div>
+    <!--Newsletter-->
+    <div class="font-content">
+        <form id="myform" onsubmit="return validateForm2()" method="post">
+            <div class="try-flex">
+                <div class="imgcontainer">
+                    <h1 class="avatar">Subscribe To Our Newsletter</h1>
+                </div>
+          
+                <div class="container">
+                    <label for="username"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Username" id="username" name="username" required class="box-text">
+                    <span id="usernameError" class="error"></span>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter email ID" id="email" name="email" required class="box-text">
+                    <span id="emailError" class="error"></span>
+                </div>
+            </div>     
+            <button type="submit" class="login-btn">Subscribe</button>
+            <label  class="remember-me">
+            <input type="checkbox" checked="checked" name="remember"> Get email updates of our store
+            </label>
+          
+        </form>
+        </div>
+    <div class="font-content">
+        <div class="social-media">
+            <h3>Follow Us on Our Social Media Handles</h3>
+            <a href="https://twitter.com/ecell_nitt" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/ecellnitt/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ecell.nit.trichy/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+    <div class="font-content">
+        <div class="align-back-to-top">
+            <button onclick="topFunction()" id="my-btn" title="Go to top">Back to Top</button>
+        </div>
+    </div>
+    </footer>
+
+    <script>
+        let mybutton=document.getElementById("my-btn");
+        window.onscroll=function(){scrollFunction()};
+    
+        function scrollFunction(){
+            if (document.body.scrollTop>100 || document.documentElement.scrollTop>100){
+                mybutton.style.display="block";
+            }
+            else{
+                mybutton.style.display="none";
+            }
+        }
+    
+        function topFunction(){
+            document.body.scrollTop=0;
+            document.documentElement.scrollTop=0;
+        }
+
+
+        function validateForm() {
+            let username = document.getElementById("username").value.trim();
+            let email = document.getElementById("email").value.trim();
+
+            // Error messages
+            let usernameError = document.getElementById("usernameError");
+            let emailError = document.getElementById("emailError");
+
+            // Clear previous error messages
+            usernameError.textContent = "";
+            emailError.textContent = "";
+
+            let isValid = true;
+
+            // Username validation
+            if (username === "") 
+            {
+                usernameError.textContent = "Name is required";
+                isValid = false;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,3}$/;
+            if (!emailRegex.test(email)) 
+            {
+                emailError.textContent = "Invalid email format";
+                isValid = false;
+            }
+
+            return isValid;
+        }
+    </script>
+    </footer>
+</body>
+</html>

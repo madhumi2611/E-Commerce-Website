@@ -1,0 +1,225 @@
+<style>
+    html
+    {
+        scroll-behavior: smooth;
+    }
+@font-face 
+    {
+    font-family: Futura;
+    src: url('futur.ttf') format('truetype'),
+         url('Futura Bold font.ttf') format('truetype')
+    }
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Golden Hour</title>
+    <link rel="stylesheet" href="product-page.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="first-row">
+            <!--logo-->
+            <div id="logo-luxury">LuXurY</div>
+            <div><input type="text" placeholder="Search" id="Search-bar" class="box-text"></div>
+            <!--login and cart-->
+            <div><a href="Login.html"><i class="fa-solid fa-user">Login</i></a></div>
+            <div><a href="#"><i class="fa-solid fa-cart-shopping">Cart</i></a></div>
+        </div>
+        <nav class="font-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Products.html">All Products</a></li>
+                <li><a href="Men.html">New Launch</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="brandless-perfume6.jpeg" alt="LUXURY perfume for elites" class="img-perfume">
+    <h3 class="description">LUXURY Velvet Rose Eau de Parfum, Sensual Luxurious Damask Rose and Dark Plum, Long-Lasting | 50 ml
+    <div class="price-product">INR 7655</div></h3>
+    <div class="buy-now">
+        <button class="two-buttons">Add to Cart</button>
+        <button class="two-buttons">Buy now</button>
+    </div>
+    <h1 class="product-title">Product Description</h1>
+    <div class="first-description">
+        <p>Indulge in the luxurious allure of <b>Velvet Rose Eau de Parfum</b>, a sensual and enchanting fragrance crafted for the sophisticated woman. At the heart of this captivating scent is the rich and velvety damask rose, which blooms beautifully alongside deep blackcurrant and dark plum notes. The fragrance takes on a slightly spicy edge with the warmth of clove, creating an intriguing contrast to the soft florals. Finally, the scent settles into an opulent base of oud and patchouli, enveloping you in an aura of mystery and elegance. Perfect for evening wear or special occasions, Velvet Rose is a fragrance that exudes confidence, grace, and timeless femininity.
+
+        </p>
+    </div>
+
+    </div>
+    <h1 class="product-title">Fragrance Notes</h1>
+    <div class="fragrance-notes">
+        <div class="fragrance-box">
+            <h1 class="fragrance-title">Top</h1>
+            <ul class="fragrance-list">
+                <li>Damask Rose</li>
+                <li>Blackcurrant</li>
+            </ul>
+        </div>
+        <div class="fragrance-box">
+            <h1 class="fragrance-title">Heart</h1>
+            <ul class="fragrance-list">
+                <li>Plum</li>
+                <li>Clove</li>
+            </ul>
+        </div>
+        <div class="fragrance-box">
+            <h1 class="fragrance-title">Base</h1>
+            <ul class="fragrance-list">
+                <li>Oud</li>
+                <li>Patchouli</li>
+            </ul>
+        </div>
+    </div>
+    <h1 class="product-title">Ratings & Reviews</h1>
+    <div class="review-box">
+        <h2 class="user-rating"><i class="fa-solid fa-star"></i>5/5</h2>
+        <p class="user-review">
+            "Fragrance is simply magical. Every time I wear it, I feel like I’m wrapped in the warmth of a sunset. The scent is delicate yet long-lasting, and I constantly get compliments wherever I go. It’s become my signature fragrance!"  
+— Sophia M.
+
+        </p>
+    </div>
+
+    <div class="review-box">
+        <h2 class="user-rating"><i class="fa-solid fa-star"></i>5/5</h2>
+        <p class="user-review">
+            "This perfume makes me feel like pure luxury. The rich, elegant notes of fragrance in and oud stays with me all day without being overpowering. It’s perfect for both work and nights out—I can’t imagine wearing anything else!"  
+— Olivia T.
+
+
+        </p>
+    </div>
+
+    <div class="review-box">
+        <h2 class="user-rating"><i class="fa-solid fa-star"></i>5/5</h2>
+        <p class="user-review">
+            "It is pure joy in a bottle. The combination of all the fragrances used in the perfume makes me feel so alive and radiant. It’s bright, uplifting, and the perfect way to start my day. I’ve already recommended it to all my friends!"  
+            — Amelia B.
+
+        </p>
+    </div>
+    <div class="end-gap"></div>
+
+    <!--Membership-->
+    <div class="font-content">
+        <div class="Membership">
+            <h1>Become a member today!</h1>
+            <p>Join our exclusive fragrance community by making your first purchase.</p>
+            <ul class="list">
+                <li><b>Exclusive Discounts</b> on future orders</li>
+                <li><b>Early Access</b> to new collections</li>
+                <li><b>Personalized Gifts</b> just for you</li>
+            </ul>
+            <p>Indulge in LUXURY, enjoy member-only perks, and elevate your scent game with every purchase.</p>
+            <p><b>Start your journey with us today!</b></p>
+        </div>
+    </div>
+    <!--Newsletter-->
+    <div class="font-content">
+        <form id="myform" onsubmit="return validateForm2()" method="post">
+            <div class="try-flex">
+                <div class="imgcontainer">
+                    <h1 class="avatar">Subscribe To Our Newsletter</h1>
+                </div>
+          
+                <div class="container">
+                    <label for="username"><b>Name</b></label>
+                    <input type="text" placeholder="Enter Username" id="username" name="username" required class="box-text">
+                    <span id="usernameError" class="error"></span>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter email ID" id="email" name="email" required class="box-text">
+                    <span id="emailError" class="error"></span>
+                </div>
+            </div>     
+            <button type="submit" class="login-btn">Subscribe</button>
+            <label  class="remember-me">
+            <input type="checkbox" checked="checked" name="remember"> Get email updates of our store
+            </label>
+          
+        </form>
+        </div>
+    <div class="font-content">
+        <div class="social-media">
+            <h3>Follow Us on Our Social Media Handles</h3>
+            <a href="https://twitter.com/ecell_nitt" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/ecellnitt/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/ecell.nit.trichy/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+    <div class="font-content">
+        <div class="align-back-to-top">
+            <button onclick="topFunction()" id="my-btn" title="Go to top">Back to Top</button>
+        </div>
+    </div>
+    </footer>
+
+    <script>
+        let mybutton=document.getElementById("my-btn");
+        window.onscroll=function(){scrollFunction()};
+    
+        function scrollFunction(){
+            if (document.body.scrollTop>100 || document.documentElement.scrollTop>100){
+                mybutton.style.display="block";
+            }
+            else{
+                mybutton.style.display="none";
+            }
+        }
+    
+        function topFunction(){
+            document.body.scrollTop=0;
+            document.documentElement.scrollTop=0;
+        }
+    </script>
+    <script>
+        function validateForm() {
+            let username = document.getElementById("username").value.trim();
+            let email = document.getElementById("email").value.trim();
+
+            // Error messages
+            let usernameError = document.getElementById("usernameError");
+            let emailError = document.getElementById("emailError");
+
+            // Clear previous error messages
+            usernameError.textContent = "";
+            emailError.textContent = "";
+
+            let isValid = true;
+
+            // Username validation
+            if (username === "") 
+            {
+                usernameError.textContent = "Name is required";
+                isValid = false;
+            }
+
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,3}$/;
+            if (!emailRegex.test(email)) 
+            {
+                emailError.textContent = "Invalid email format";
+                isValid = false;
+            }
+
+            return isValid;
+        }
+    </script>
+</body>
+</html>
